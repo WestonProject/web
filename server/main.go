@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/WestonProject/web/internal/app"
+)
 
 func main() {
-	fmt.Println("Hello, Project!")
+	app.Start()
 }
